@@ -1,5 +1,5 @@
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 752px){
+@media only screen and (min-width: 600px){
   *{
     margin: 0;
     padding: 0;
@@ -11,31 +11,29 @@
 .img-box{
     width: 500px;
     position: relative;
-    left:140px;
-    top:60px;
+    left:50px;
 }
 .pic-one{
     width:100%;
-    position: absolute;
+    position:absolute;
     top: 35px;
-    
 }
 .pic-two{
-    width: 20%;
+    width: 25%;
     position: absolute;
-    top: 46px;
-   right: 420px;
+    top: 65px;
+   right: 385px;
 }
 .pic-three{
     width: 40%;
     position: absolute;
-    left: 280px;
-  top:40px;
+    left: 317px;
+    top:13px;
 }
 .pic-four{
     width: 45%;
     position: absolute;
-    left:60px;
+    right:312px;
     top: 180px;
 }
 
@@ -45,20 +43,23 @@
 }
 .Hi .row{
     margin-bottom: 20%;
-    margin-left: 2%
+    margin-right: 10%;
+   
  
 }
 .Hi h1{
-    margin-top: 40px;
+    margin :30px -200px;
     font-weight: bold;
     color: #fff;
+    
 }
 .Hi p{
-    margin: 30px 0 50px;
+    margin: 30px -200px;
     font-size: 13px;
     color: #fff;
 }
 .Hi button{
+     margin: 30px -200px;
     padding: 8px 20px;
     background: #0c5ce3;
     border: 0;
